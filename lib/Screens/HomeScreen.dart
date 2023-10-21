@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../Widgets/Constant.dart';
+import '../Widgets/constant.dart';
 import 'news_feed.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int SelectedIndex = 0;
 
   static List<Widget> widgetContainer = [
-    const news_feedScreen(),
+    news_feedScreen(),
     Container(
       color: Colors.black,
     ),
@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Container(
                     width: 40,
                     height: 40,
-                    margin: EdgeInsets.only(left: 17),
+                    margin: const EdgeInsets.only(left: 17),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
                       color: Colors.red,

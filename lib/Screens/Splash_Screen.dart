@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:ui_tiktok/Widgets/Constant.dart';
+import 'package:ui_tiktok/Widgets/constant.dart';
 import 'HomeScreen.dart';
 
 // ignore: camel_case_types
